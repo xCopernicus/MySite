@@ -1,0 +1,25 @@
+@import './settings.module.scss';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $color-background;
+  font-family: $font-text;
+  font-size: $base-size;
+  line-height: 1.7;
+  color: $color-dark;
+  letter-spacing: 0.6px;
+  }
+
+  h1, h2, h3, h4, h5, p {
+    margin: 0;
+  }
+  
+  a, a:hover, a:visited {
+    text-decoration: none;
+  }
+  

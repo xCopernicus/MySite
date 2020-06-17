@@ -1,0 +1,15 @@
+@import '../../../styles/settings.module.scss';
+
+.component {
+  height: 100vh;
+  position: absolute;
+  padding: $base-size;
+  background: $color-primary;
+  z-index: 1;
+}
+
+.button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

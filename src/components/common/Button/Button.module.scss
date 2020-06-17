@@ -1,0 +1,26 @@
+@import '../../../styles/settings.module.scss';
+
+.component {
+  border: none;
+  margin: $base-size;
+  padding: $base-size;
+  border-radius: $radius;
+  color: $color-light;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: inherit;
+}
+
+.primary {
+  background: $color-primary;
+}
+
+.secondary {
+  background: $color-secondary;
+}
+
+.wrapper {
+  padding: 0.5 * $base-size;
+  font-size: 30px;
+}
