@@ -1,6 +1,10 @@
 @import '../../../styles/settings.module.scss';
 
-.component {
-  height: 100vh;
-  position: absolute;
+.info,
+.image {
+  margin-bottom: 2 * $base-size;
+}
+
+.info {
+  text-align: justify;
 }

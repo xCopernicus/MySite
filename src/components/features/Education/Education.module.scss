@@ -1,0 +1,13 @@
+@import '../../../styles/global.module.scss';
+
+.component {
+  h3 {
+    margin: $base-size 0;
+  }
+}
+
+.qualification {
+  border: 1px solid;
+  margin-bottom: $base-size;
+  height: 20 * $base-size;
+}

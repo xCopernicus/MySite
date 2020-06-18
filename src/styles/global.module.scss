@@ -4,9 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
   background: $color-background;
   font-family: $font-text;
   font-size: $base-size;
@@ -14,12 +17,8 @@ body {
   color: $color-dark;
   letter-spacing: 0.6px;
   }
-
-  h1, h2, h3, h4, h5, p {
-    margin: 0;
-  }
   
-  a, a:hover, a:visited {
-    text-decoration: none;
-  }
+a, a:hover, a:visited {
+  text-decoration: none;
+}
   

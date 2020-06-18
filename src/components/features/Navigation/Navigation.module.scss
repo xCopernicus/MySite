@@ -1,0 +1,7 @@
+@import '../../../styles/settings.module.scss';
+
+.component {
+  width: 100%;
+  height: 3 * $base-size;
+  background: $color-primary;
+}

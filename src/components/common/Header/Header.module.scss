@@ -1,0 +1,20 @@
+@import '../../../styles/global.module.scss';
+
+.component {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 3 * $base-size;
+
+  &:after {
+    position: absolute;
+    content: '';
+    background: $color-light;
+    width: 6 * $base-size;
+    height: .25 * $base-size;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: $radius;
+  }
+}
